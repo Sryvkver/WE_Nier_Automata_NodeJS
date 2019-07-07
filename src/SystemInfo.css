@@ -1,0 +1,79 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #bab5a1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #454138; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.ContainerSys{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  min-height: fit-content;
+  max-height: 50vh;
+  height: fit-content;
+  min-width: 12vw;
+  max-width: 50vw;
+  width: 12vw;
+  overflow: auto;
+  resize: both;
+}
+
+.DragInputSys{
+  cursor: move;
+}
+
+.Item{
+  font-size: small;
+}
+
+.MemProgressBar{
+  
+  background: #bab5a1;
+  height: 2vh;
+  max-height: 15px,
+}
+
+.MemProgressBarInner{
+  background: #454138;
+  color: #bab5a1;
+  text-align: center;
+  height: 100%;
+  font-size: 1.5vh;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.progressBar{
+  background: #bab5a1;
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "ws_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "WS-Server.js",
+  "scripts": {
+    "start": "nodemon WS-Server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "os-utils": "0.0.14",
+    "ws": "^7.0.1"
+  }
+}
