@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "os-utils": "0.0.14",
-    "ws": "^7.0.1"
+    "ws": "^7.4.6"
   }
 }
